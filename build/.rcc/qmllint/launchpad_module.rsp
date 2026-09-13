@@ -1,0 +1,10 @@
+-I
+/home/zed/桌面/pad/launchpad/build
+-I
+/usr/lib/x86_64-linux-gnu/qt6/qml
+--resource
+/home/zed/桌面/pad/launchpad/build/.qt/rcc/qmake_Launchpad.qrc
+--resource
+/home/zed/桌面/pad/launchpad/build/.qt/rcc/launchpad_raw_qml_0.qrc
+--module
+Launchpad

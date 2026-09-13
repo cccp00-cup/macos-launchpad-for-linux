@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Launchpad/">
+    <file alias="qml/Main.qml">/home/zed/桌面/pad/launchpad/qml/Main.qml</file>
+  </qresource>
+</RCC>
+

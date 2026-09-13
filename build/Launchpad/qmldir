@@ -1,0 +1,5 @@
+module Launchpad
+typeinfo launchpad.qmltypes
+prefer :/qt/qml/Launchpad/
+Main 1.0 qml/Main.qml
+

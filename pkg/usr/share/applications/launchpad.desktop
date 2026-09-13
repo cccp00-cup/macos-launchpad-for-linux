@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Name=Launchpad
+Name[zh_CN]=启动台
+GenericName=Application Launcher
+GenericName[zh_CN]=应用启动台
+Comment=macOS style full-screen app launcher
+Comment[zh_CN]=macOS 风格的全屏应用启动台
+Exec=launchpad
+Icon=launchpad
+Terminal=false
+Categories=Utility;System;Core;
+Keywords=launchpad;launcher;apps;starter;
+X-KDE-StartupNotify=false
+StartupWMClass=launchpad
+SingleMainWindow=true

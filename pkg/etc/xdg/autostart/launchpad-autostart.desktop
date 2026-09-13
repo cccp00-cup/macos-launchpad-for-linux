@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Launchpad
+Name[zh_CN]=启动台
+Exec=launchpad --background
+Icon=launchpad
+Terminal=false
+OnlyShowIn=KDE;
+X-KDE-autostart-phase=2
+X-GNOME-Autostart-enabled=true

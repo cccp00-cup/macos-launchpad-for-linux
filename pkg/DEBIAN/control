@@ -1,0 +1,14 @@
+Package: launchpad
+Version: 1.0.0-1
+Section: utils
+Priority: optional
+Architecture: amd64
+Installed-Size: 576
+Depends: libqt6core6t64, libqt6gui6, libqt6qml6, libqt6quick6, libqt6qmlworkerscript6, libkf6globalaccel6, qml6-module-qtquick, qml6-module-qtquick-window
+Recommends: ffmpeg
+Maintainer: qw-launchpad <launchpad@localhost>
+Description: macOS-style full-screen application launcher
+ Full-screen app launcher inspired by the classic macOS Launchpad.
+ Shows applications over a blurred view of the current wallpaper,
+ with drag-and-drop arrangement, horizontal paging, live search,
+ and a global Left-Alt hotkey via KGlobalAccel.

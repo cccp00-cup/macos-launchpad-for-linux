@@ -1,0 +1,14 @@
+-rootPath
+/home/zed/桌面/pad/launchpad
+-cmake-output
+-output-file
+/home/zed/桌面/pad/launchpad/build/.qt/qml_imports/launchpad_conf.cmake
+-importPath
+/home/zed/桌面/pad/launchpad/build/Launchpad
+-importPath
+/home/zed/桌面/pad/launchpad/build
+-importPath
+/usr/lib/x86_64-linux-gnu/qt6/qml
+-qrcFiles
+/home/zed/桌面/pad/launchpad/build/.qt/rcc/qmake_Launchpad.qrc
+/home/zed/桌面/pad/launchpad/build/.qt/rcc/launchpad_raw_qml_0.qrc

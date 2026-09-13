@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>launchpad.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Launchpad</name>
+  <name xml:lang="zh_CN">启动台</name>
+  <summary>macOS style full-screen application launcher</summary>
+  <summary xml:lang="zh_CN">macOS 风格的全屏应用启动台</summary>
+  <description>
+    <p>A full-screen app launcher inspired by the classic macOS Launchpad.</p>
+    <p>Shows your applications over a blurred view of the current desktop
+    wallpaper, with drag-and-drop icon arrangement, horizontal paging,
+    live search and a global Left-Alt hotkey (via KGlobalAccel).</p>
+    <p xml:lang="zh_CN">经典 macOS 启动台风格的全屏应用启动器：毛玻璃壁纸背景、
+    图标拖拽排序、横向翻页、实时搜索，支持左 Alt 全局快捷键呼出。
+    自动读取当前系统图标主题，开机自启、后台常驻。</p>
+  </description>
+  <launchable type="desktop-id">launchpad.desktop</launchable>
+  <url type="homepage">https://qwenwork.cn</url>
+  <provides>
+    <binary>launchpad</binary>
+  </provides>
+  <categories>
+    <category>Utility</category>
+  </categories>
+  <releases>
+    <release version="1.0.0" date="2026-09-12">
+      <description>
+        <p>Initial release.</p>
+      </description>
+    </release>
+  </releases>
+  <content_rating type="oars-1.1"/>
+</component>

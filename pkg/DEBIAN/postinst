@@ -1,0 +1,26 @@
+#!/bin/sh
+set -e
+
+# 刷新图标与菜单缓存
+if [ -x /usr/bin/update-desktop-database ]; then
+    update-desktop-database -q /usr/share/applications || true
+fi
+gtk-update-icon-cache -qtf /usr/share/icons/hicolor 2>/dev/null || true
+
+# 升级时重启正在运行的实例（尽力而为；失败则下次登录由 autostart 拉起）
+pids=$(pgrep -x launchpad 2>/dev/null || true)
+if [ -n "$pids" ]; then
+    for pid in $pids; do
+        uid=$(stat -c %u "/proc/$pid" 2>/dev/null) || continue
+        user=$(id -nu "$uid" 2>/dev/null) || continue
+        kill "$pid" 2>/dev/null || true
+        if command -v systemd-run >/dev/null 2>&1; then
+            systemd-run --user -M "$user@.host" --collect \
+                --setenv=QT_QPA_PLATFORM=wayland \
+                --setenv=WAYLAND_DISPLAY=wayland-0 \
+                /usr/bin/launchpad --background >/dev/null 2>&1 || true
+        fi
+    done
+fi
+
+exit 0

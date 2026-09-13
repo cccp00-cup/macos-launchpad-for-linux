@@ -1,0 +1,5 @@
+--resource
+/home/zed/桌面/pad/launchpad/build/.qt/rcc/qmake_Launchpad.qrc
+--resource
+/home/zed/桌面/pad/launchpad/build/.qt/rcc/launchpad_raw_qml_0.qrc
+/qt/qml/Launchpad/qml/Main.qml

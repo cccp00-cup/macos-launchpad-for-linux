@@ -1,0 +1,169 @@
+{
+    "classes": [
+        {
+            "className": "Wallpaper",
+            "lineNumber": 41,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "url",
+                    "returnType": "QString"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "Wallpaper",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "ready",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "SliceModel",
+            "lineNumber": 343,
+            "object": true,
+            "qualifiedClassName": "SliceModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        },
+        {
+            "className": "AppModel",
+            "lineNumber": 375,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "ensureLoaded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "idAt",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "page",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "pageModel",
+                    "returnType": "QObject*"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "desktopId",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "launch",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "from",
+                            "type": "int"
+                        },
+                        {
+                            "name": "to",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "move",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "saveOrder",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "count",
+                    "notify": "countChanged",
+                    "read": "count",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "filter",
+                    "notify": "filterChanged",
+                    "read": "filter",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setFilter"
+                }
+            ],
+            "qualifiedClassName": "AppModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "countChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "filterChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "main.cpp",
+    "outputRevision": 68
+}

@@ -25,6 +25,14 @@
     <category>Utility</category>
   </categories>
   <releases>
+    <release version="26.9.25" date="2026-09-25">
+      <description>
+        <p>新增文件夹：把图标拖到另一个图标上即可合并，支持 3x3 可翻页的网格面板、
+        内联重命名、成员拖出与重排，搜索也能命中文件夹内的应用。</p>
+        <p>拖拽改版：长按进入编辑态，图标实时让位、跨页拖动不中断。</p>
+        <p>文件夹面板改用重度高斯模糊加压暗的毛玻璃背景。</p>
+      </description>
+    </release>
     <release version="1.0.0" date="2026-09-12">
       <description>
         <p>Initial release.</p>

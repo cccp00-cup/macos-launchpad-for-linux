@@ -3,7 +3,7 @@
 set -euo pipefail
 cd "$(dirname "${BASH_SOURCE[0]}")"
 
-VERSION="1.0.0"
+VERSION="26.9.25"
 ARCH="amd64"
 PKGROOT="pkg"
 DEB="launchpad_${VERSION}-1_${ARCH}.deb"
@@ -40,7 +40,7 @@ Comment[zh_CN]=macOS 风格的全屏应用启动台
 Exec=launchpad
 Icon=launchpad
 Terminal=false
-Categories=Utility;System;Core;
+Categories=Utility;
 Keywords=launchpad;launcher;apps;starter;
 X-KDE-StartupNotify=false
 StartupWMClass=launchpad
@@ -90,6 +90,14 @@ cat > "$PKGROOT/usr/share/metainfo/launchpad.metainfo.xml" <<'EOF'
     <category>Utility</category>
   </categories>
   <releases>
+    <release version="26.9.25" date="2026-09-25">
+      <description>
+        <p>新增文件夹：把图标拖到另一个图标上即可合并，支持 3x3 可翻页的网格面板、
+        内联重命名、成员拖出与重排，搜索也能命中文件夹内的应用。</p>
+        <p>拖拽改版：长按进入编辑态，图标实时让位、跨页拖动不中断。</p>
+        <p>文件夹面板改用重度高斯模糊加压暗的毛玻璃背景。</p>
+      </description>
+    </release>
     <release version="1.0.0" date="2026-09-12">
       <description>
         <p>Initial release.</p>
@@ -123,19 +131,49 @@ cat > "$PKGROOT/usr/share/doc/launchpad/README.md" <<'EOF'
 
 macOS 经典风格的全屏应用启动器（KDE Plasma）。
 
-- 左 Alt：呼出 / 隐藏
-- 滚轮或触控板横滑：翻页
-- 点击图标：启动应用；按住拖拽：排序（自动保存）
-- 输入文字：实时搜索，回车启动第一个结果
-- Esc：清空搜索 / 关闭
+## 操作
+- 呼出 / 隐藏：左 Alt 全局快捷键（可在「系统设置 → 快捷键 → Launchpad」里改）
+- 翻页：滚轮 / 触控板横滑 / 底部圆点
+- 点击图标：启动应用
+- 长按图标约 0.2 秒：进入编辑态（图标轻微抖动），此时拖动可排序，自动保存
+- 把图标拖到另一个图标上停约 0.8 秒：合并成文件夹
+- 点击文件夹：屏幕中央展开 3×3 面板，超过 9 个可滚轮翻页
+- 面板内点击文件夹名可重命名
+- 面板内长按拖动成员：调整顺序；拖到面板外：移出文件夹
+- 成员被全部移出后，文件夹自动消失
+- 输入文字：实时搜索（文件夹内的应用也能搜到），回车启动第一个结果
+- Esc：退出编辑态 / 清空搜索 / 关闭窗口
 
-配置与排序保存于 ~/.config/launchpad/。
-壁纸模糊缓存位于 ~/.cache/qw-launchpad/（可安全删除）。
+## 文件
+- 布局与排序：~/.config/launchpad/settings.conf
+- 壁纸模糊缓存：~/.cache/qw-launchpad/Launchpad（可安全删除）
 EOF
 gzip -9n "$PKGROOT/usr/share/doc/launchpad/README.md" 2>/dev/null || true
 if [ -f "$PKGROOT/usr/share/doc/launchpad/README.md.gz" ]; then
     mv "$PKGROOT/usr/share/doc/launchpad/README.md.gz" "$PKGROOT/usr/share/doc/launchpad/README.gz"
 fi
+
+# ---------- Debian changelog（软件商店/Discover 会读它显示更新记录）----------
+cat > "$PKGROOT/usr/share/doc/launchpad/changelog.Debian" <<EOF
+launchpad (${VERSION}-1) unstable; urgency=medium
+
+  * 新增文件夹：把图标拖到另一个图标上即可合并；支持 3x3 可翻页的网格面板、
+    内联重命名、成员拖出与重排，搜索也能命中文件夹内的应用。
+  * 拖拽改版：长按图标进入编辑态，其余图标实时让位、跨页拖动不中断。
+  * 文件夹面板改用重度高斯模糊加压暗的毛玻璃背景。
+  * 补齐运行时依赖：qml6-module-qtquick-effects、qml6-module-qtqml、
+    qml6-module-qtqml-models。
+  * 菜单类别由 Utility;System;Core; 收敛为 Utility;（原来会在菜单中重复出现）。
+
+ -- qw-launchpad <launchpad@localhost>  Fri, 25 Sep 2026 12:00:00 +0800
+
+launchpad (1.0.0-1) unstable; urgency=medium
+
+  * 首个版本。
+
+ -- qw-launchpad <launchpad@localhost>  Sat, 12 Sep 2026 12:00:00 +0800
+EOF
+gzip -9n "$PKGROOT/usr/share/doc/launchpad/changelog.Debian"
 
 # ---------- control ----------
 INSTALLED_SIZE=$(du -sk --exclude=DEBIAN "$PKGROOT" | cut -f1)
@@ -146,14 +184,18 @@ Section: utils
 Priority: optional
 Architecture: ${ARCH}
 Installed-Size: ${INSTALLED_SIZE}
-Depends: libqt6core6t64, libqt6gui6, libqt6qml6, libqt6quick6, libqt6qmlworkerscript6, libkf6globalaccel6, qml6-module-qtquick, qml6-module-qtquick-window
+Depends: libqt6core6t64 | libqt6core6, libqt6dbus6, libqt6network6, libqt6gui6, libqt6qml6, libqt6quick6, libqt6qmlworkerscript6, libkf6globalaccel6, qml6-module-qtquick, qml6-module-qtquick-window, qml6-module-qtquick-effects, qml6-module-qtqml, qml6-module-qtqml-models
 Recommends: ffmpeg
+Homepage: https://qwenwork.cn
 Maintainer: qw-launchpad <launchpad@localhost>
 Description: macOS-style full-screen application launcher
  Full-screen app launcher inspired by the classic macOS Launchpad.
  Shows applications over a blurred view of the current wallpaper,
- with drag-and-drop arrangement, horizontal paging, live search,
- and a global Left-Alt hotkey via KGlobalAccel.
+ with drag-and-drop arrangement, folders, horizontal paging, live search,
+ and a global hotkey via KGlobalAccel.
+ .
+ Requires Qt 6.5+ and KF6 (Plasma 6 era desktops). On Debian/Ubuntu
+ install with: sudo apt install ./launchpad_26.9.25-1_amd64.deb
 EOF
 
 cat > "$PKGROOT/DEBIAN/conffiles" <<'EOF'

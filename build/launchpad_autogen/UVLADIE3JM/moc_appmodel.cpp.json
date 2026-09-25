@@ -1,0 +1,207 @@
+{
+    "classes": [
+        {
+            "className": "AppModel",
+            "lineNumber": 43,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "ensureLoaded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "idAt",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "desktopId",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "launch",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "idsInOrder",
+                            "type": "QVariantList"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "commitLayout",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "draggedId",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "targetId",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "mergeInto",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "folderId",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "memberId",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "takeFromFolder",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "folderId",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "renameFolder",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "folderId",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "memberIds",
+                            "type": "QVariantList"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "reorderFolder",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "folderId",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "folderMembers",
+                    "returnType": "QVariantList"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "isFolder",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "folderId",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 12,
+                    "name": "folderName",
+                    "returnType": "QString"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "count",
+                    "notify": "countChanged",
+                    "read": "count",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "filter",
+                    "notify": "filterChanged",
+                    "read": "filter",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setFilter"
+                }
+            ],
+            "qualifiedClassName": "AppModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "countChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "filterChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "appmodel.h",
+    "outputRevision": 68
+}

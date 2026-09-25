@@ -1,5 +1,6 @@
 /home/zed/桌面/pad/launchpad/build/launchpad_autogen/include/main.moc: /home/zed/桌面/pad/launchpad/src/main.cpp \
   /home/zed/桌面/pad/launchpad/build/launchpad_autogen/moc_predefs.h \
+  /home/zed/桌面/pad/launchpad/src/appmodel.h \
   /usr/include/KF6/KGlobalAccel/KGlobalAccel \
   /usr/include/KF6/KGlobalAccel/kglobalaccel.h \
   /usr/include/KF6/KGlobalAccel/kglobalaccel_export.h \
@@ -308,6 +309,10 @@
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QFile \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QFileInfo \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QHash \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QJsonArray \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QJsonDocument \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QJsonObject \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QJsonValue \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QMap \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QMargins \
@@ -317,6 +322,7 @@
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QRect \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QRectF \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QRegularExpression \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QSet \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QSettings \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QSize \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QSizeF \
@@ -325,7 +331,9 @@
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QStringList \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QUrl \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QUuid \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QVariant \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QVector \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QtCore \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QtCoreDepends \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/q20algorithm.h \

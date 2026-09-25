@@ -13,6 +13,7 @@ qt_policy(SET QTP0001 NEW)
 
 qt_add_executable(launchpad
     src/main.cpp
+    src/appmodel.h
 )
 
 qt_add_qml_module(launchpad
@@ -31,3 +32,17 @@ target_link_libraries(launchpad PRIVATE
 
 # 安装到可执行文件目录，便于 ~/.local/bin 使用
 install(TARGETS launchpad BUNDLE DESTINATION . LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR} RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
+
+# 开发用回归测试：-DBUILD_TESTING=ON 后可用 ctest 运行（默认关闭，不影响打包）
+option(BUILD_TESTING "Build regression tests" OFF)
+if(BUILD_TESTING)
+    enable_testing()
+    find_package(Qt6 6.5 REQUIRED COMPONENTS Test)
+    qt_add_executable(tst_drag tests/tst_drag.cpp src/appmodel.h)
+    target_link_libraries(tst_drag PRIVATE Qt6::Quick Qt6::Test)
+    target_include_directories(tst_drag PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
+    target_compile_definitions(tst_drag PRIVATE
+        QMLPATH="${CMAKE_CURRENT_SOURCE_DIR}/qml/Main.qml")
+    add_test(NAME tst_drag COMMAND tst_drag)
+    set_tests_properties(tst_drag PROPERTIES ENVIRONMENT "QT_QPA_PLATFORM=offscreen")
+endif()

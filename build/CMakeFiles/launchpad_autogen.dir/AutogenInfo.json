@@ -378,7 +378,15 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "/home/zed/\u684c\u9762/pad/launchpad/build/launchpad_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "launchpad_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/home/zed/\u684c\u9762/pad/launchpad/src/appmodel.h",
+			"Mu",
+			"UVLADIE3JM/moc_appmodel.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/zed/\u684c\u9762/pad/launchpad/build/launchpad_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/zed/\u684c\u9762/pad/launchpad/build/launchpad_autogen/mocs_compilation.cpp",

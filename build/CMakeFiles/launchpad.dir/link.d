@@ -53,7 +53,6 @@ launchpad: \
   /usr/lib/x86_64-linux-gnu/libQt6QmlMeta.so.6.8.2 \
   /usr/lib/x86_64-linux-gnu/libQt6QmlModels.so.6.8.2 \
   /usr/lib/x86_64-linux-gnu/libQt6OpenGL.so.6.8.2 \
-  /lib/x86_64-linux-gnu/libm.so.6 \
   /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.8.2 \
   /lib64/ld-linux-x86-64.so.2 \
   /lib/i386-linux-gnu/libgssapi_krb5.so.2 \
@@ -363,8 +362,6 @@ CMakeFiles/launchpad.dir/build/.qt/rcc/qrc_launchpad_raw_qml_0.cpp.o:
 /usr/lib/x86_64-linux-gnu/libQt6QmlModels.so.6.8.2:
 
 /usr/lib/x86_64-linux-gnu/libQt6OpenGL.so.6.8.2:
-
-/lib/x86_64-linux-gnu/libm.so.6:
 
 /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.8.2:
 

@@ -948,6 +948,16 @@ CMakeFiles/launchpad.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtConcurrent/qtaskbuilder.h \
  /usr/include/x86_64-linux-gnu/qt6/QtConcurrent/qtconcurrentthreadengine.h \
  /usr/include/x86_64-linux-gnu/qt6/QtConcurrent/qtconcurrentversion.h \
+ /home/zed/桌面/pad/launchpad/src/appmodel.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QHash \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QJsonArray \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QJsonDocument \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QJsonObject \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QJsonValue \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QSet \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QStringList \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QUuid \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QVector \
  /usr/include/x86_64-linux-gnu/qt6/QtDBus/QDBusInterface \
  /usr/include/x86_64-linux-gnu/qt6/QtDBus/qdbusinterface.h \
  /usr/include/x86_64-linux-gnu/qt6/QtDBus/qtdbusglobal.h \

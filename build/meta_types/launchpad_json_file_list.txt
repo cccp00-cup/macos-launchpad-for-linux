@@ -1,1 +1,2 @@
+/home/zed/桌面/pad/launchpad/build/launchpad_autogen/include/../UVLADIE3JM/moc_appmodel.cpp.json
 /home/zed/桌面/pad/launchpad/build/launchpad_autogen/include/main.moc.json

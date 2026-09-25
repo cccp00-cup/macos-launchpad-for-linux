@@ -6,82 +6,210 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 1328,
+                        "durationMicroseconds": 637,
                         "errorMessage": "",
                         "functionName": "flags",
-                        "line": 5
+                        "line": 6
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 36,
-                        "durationMicroseconds": 689,
+                        "durationMicroseconds": 730,
                         "errorMessage": "",
                         "functionName": "perPage",
-                        "line": 13
+                        "line": 14
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 579,
+                        "durationMicroseconds": 549,
                         "errorMessage": "",
                         "functionName": "searching",
-                        "line": 18
+                        "line": 19
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 29,
-                        "durationMicroseconds": 1103,
+                        "durationMicroseconds": 1574,
                         "errorMessage": "Cannot access value for name AppListModel",
                         "functionName": "pageCount",
-                        "line": 19
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 35,
-                        "durationMicroseconds": 723,
-                        "errorMessage": "",
-                        "functionName": "cellW",
                         "line": 22
                     },
                     {
+                        "codegenSuccessfull": false,
+                        "column": 29,
+                        "durationMicroseconds": 350,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "dragOrder",
+                        "line": 29
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 29,
+                        "durationMicroseconds": 247,
+                        "errorMessage": "",
+                        "functionName": "slotIndex",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 737,
+                        "errorMessage": "",
+                        "functionName": "dragPoint",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 35,
+                        "durationMicroseconds": 288,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "dragOriginOrder",
+                        "line": 37
+                    },
+                    {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 584,
+                        "durationMicroseconds": 751,
+                        "errorMessage": "",
+                        "functionName": "cellW",
+                        "line": 39
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 622,
                         "errorMessage": "",
                         "functionName": "cellH",
-                        "line": 23
+                        "line": 40
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 2187,
+                        "durationMicroseconds": 1843,
                         "errorMessage": "",
                         "functionName": "iconSize",
-                        "line": 24
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 5,
-                        "durationMicroseconds": 447,
-                        "errorMessage": "",
-                        "functionName": "closeWindow",
-                        "line": 26
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 5,
-                        "durationMicroseconds": 966,
-                        "errorMessage": "",
-                        "functionName": "reveal",
-                        "line": 28
+                        "line": 41
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 5,
                         "durationMicroseconds": 0,
                         "errorMessage": "Functions without type annotations won't be compiled",
-                        "functionName": "startDrag",
-                        "line": 44
+                        "functionName": "slotOfRow",
+                        "line": 47
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "slotAtPoint",
+                        "line": 54
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 5,
+                        "durationMicroseconds": 272,
+                        "errorMessage": "",
+                        "functionName": "closeWindow",
+                        "line": 66
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 5,
+                        "durationMicroseconds": 700,
+                        "errorMessage": "",
+                        "functionName": "blankClick",
+                        "line": 69
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 5,
+                        "durationMicroseconds": 643,
+                        "errorMessage": "",
+                        "functionName": "reveal",
+                        "line": 74
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "beginDrag",
+                        "line": 92
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 172,
+                        "errorMessage": "Cannot load property length from (component in /home/zed/桌面/pad/launchpad/qml/Main.qml)::dragOrder with type QVariant.",
+                        "functionName": "isOrderChanged",
+                        "line": 109
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 36,
+                        "durationMicroseconds": 624,
+                        "errorMessage": "",
+                        "functionName": "pageDragOrigin",
+                        "line": 119
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "pageDragBegin",
+                        "line": 121
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "pageDragMove",
+                        "line": 127
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 5,
+                        "durationMicroseconds": 6715,
+                        "errorMessage": "",
+                        "functionName": "pageDragEnd",
+                        "line": 136
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 247,
+                        "errorMessage": "Cannot load property length from (component in /home/zed/桌面/pad/launchpad/qml/Main.qml)::dragOrder with type QVariant.",
+                        "functionName": "reindexSlots",
+                        "line": 147
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "moveGhost",
+                        "line": 153
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "setDragSlot",
+                        "line": 159
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "shouldDisplace",
+                        "line": 172
                     },
                     {
                         "codegenSuccessfull": false,
@@ -89,447 +217,2119 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Functions without type annotations won't be compiled",
                         "functionName": "dragMove",
-                        "line": 54
+                        "line": 191
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 5,
-                        "durationMicroseconds": 1295,
-                        "errorMessage": "Cannot access value for name AppListModel",
+                        "durationMicroseconds": 266,
+                        "errorMessage": "Cannot load property length from (component in /home/zed/桌面/pad/launchpad/qml/Main.qml)::dragOrder with type QVariant.",
                         "functionName": "endDrag",
-                        "line": 84
+                        "line": 224
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 2381,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "cancelDrag",
+                        "line": 235
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "openFolder",
+                        "line": 248
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 1325,
+                        "errorMessage": "Cannot access value for name AppListModel",
+                        "functionName": "closeFolder",
+                        "line": 261
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "dragMemberTo",
+                        "line": 270
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 4798,
+                        "errorMessage": "Cannot access value for name AppListModel",
+                        "functionName": "commitMemberOrder",
+                        "line": 288
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "wheelPagePanel",
+                        "line": 297
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 1214,
+                        "errorMessage": "Cannot access value for name AppListModel",
+                        "functionName": "refreshFolder",
+                        "line": 304
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 5,
+                        "durationMicroseconds": 969,
+                        "errorMessage": "",
+                        "functionName": "exitEditMode",
+                        "line": 312
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 23,
-                        "durationMicroseconds": 1013,
+                        "durationMicroseconds": 988,
                         "errorMessage": "Cannot access value for name AppListModel",
                         "functionName": "onVisibleChanged",
-                        "line": 93
+                        "line": 317
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 26,
+                        "durationMicroseconds": 570,
+                        "errorMessage": "",
+                        "functionName": "onFilterTextChanged",
+                        "line": 337
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 208,
+                        "durationMicroseconds": 143,
                         "errorMessage": "Cannot access value for name WallpaperBackend",
                         "functionName": "target",
-                        "line": 36
+                        "line": 82
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 9,
-                        "durationMicroseconds": 272,
+                        "durationMicroseconds": 207,
                         "errorMessage": "Cannot access value for name WallpaperBackend",
                         "functionName": "onReady",
-                        "line": 37
+                        "line": 83
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 570,
+                        "durationMicroseconds": 308,
                         "errorMessage": "",
                         "functionName": "source",
-                        "line": 112
+                        "line": 347
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 300,
+                        "durationMicroseconds": 207,
                         "errorMessage": "",
                         "functionName": "fillMode",
-                        "line": 113
+                        "line": 348
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 221,
+                        "durationMicroseconds": 149,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 111
+                        "line": 346
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 274,
+                        "durationMicroseconds": 190,
                         "errorMessage": "",
                         "functionName": "target",
-                        "line": 119
+                        "line": 354
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 279,
+                        "durationMicroseconds": 206,
                         "errorMessage": "",
                         "functionName": "type",
-                        "line": 123
+                        "line": 358
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 205,
+                        "durationMicroseconds": 242,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 127
+                        "line": 362
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 50,
-                        "durationMicroseconds": 1015,
+                        "durationMicroseconds": 1056,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
                         "functionName": "color",
-                        "line": 130
+                        "line": 365
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 50,
-                        "durationMicroseconds": 1239,
+                        "durationMicroseconds": 1020,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
                         "functionName": "color",
-                        "line": 132
+                        "line": 367
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 1171,
+                        "durationMicroseconds": 976,
                         "errorMessage": "",
                         "functionName": "onClicked",
-                        "line": 140
+                        "line": 375
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 420,
+                        "durationMicroseconds": 175,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 138
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 18,
-                        "durationMicroseconds": 572,
-                        "errorMessage": "",
-                        "functionName": "visible",
-                        "line": 146
+                        "line": 373
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 16,
-                        "durationMicroseconds": 1105,
+                        "durationMicroseconds": 752,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
                         "functionName": "color",
-                        "line": 148
+                        "line": 382
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 18,
+                        "durationMicroseconds": 469,
+                        "errorMessage": "",
+                        "functionName": "opacity",
+                        "line": 387
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 608,
+                        "durationMicroseconds": 349,
                         "errorMessage": "",
                         "functionName": "top",
-                        "line": 149
+                        "line": 383
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 613,
+                        "durationMicroseconds": 305,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
-                        "line": 151
+                        "line": 385
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 1635,
+                        "durationMicroseconds": 1098,
                         "errorMessage": "Cannot access value for name AppListModel",
                         "functionName": "onTextChanged",
-                        "line": 176
+                        "line": 413
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 25,
-                        "durationMicroseconds": 1465,
+                        "durationMicroseconds": 1066,
                         "errorMessage": "Cannot access value for name AppListModel",
                         "functionName": "onAccepted",
-                        "line": 177
+                        "line": 414
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 818,
+                        "durationMicroseconds": 425,
                         "errorMessage": "",
                         "functionName": "left",
-                        "line": 161
+                        "line": 398
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 482,
+                        "durationMicroseconds": 426,
                         "errorMessage": "",
                         "functionName": "right",
-                        "line": 162
+                        "line": 399
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 37,
-                        "durationMicroseconds": 490,
+                        "durationMicroseconds": 485,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
-                        "line": 163
+                        "line": 400
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 36,
-                        "durationMicroseconds": 315,
+                        "durationMicroseconds": 217,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
-                        "line": 170
+                        "line": 407
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 943,
+                        "durationMicroseconds": 722,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
                         "functionName": "color",
-                        "line": 172
+                        "line": 409
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 26,
-                        "durationMicroseconds": 943,
+                        "durationMicroseconds": 785,
                         "errorMessage": "",
                         "functionName": "visible",
-                        "line": 174
+                        "line": 411
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 241,
+                        "durationMicroseconds": 161,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 169
+                        "line": 406
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 534,
+                        "durationMicroseconds": 326,
                         "errorMessage": "",
                         "functionName": "top",
-                        "line": 189
+                        "line": 426
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 1492,
+                        "durationMicroseconds": 394,
                         "errorMessage": "",
                         "functionName": "bottom",
-                        "line": 191
+                        "line": 428
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 505,
+                        "durationMicroseconds": 315,
                         "errorMessage": "",
                         "functionName": "left",
-                        "line": 193
+                        "line": 430
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 499,
+                        "durationMicroseconds": 304,
                         "errorMessage": "",
                         "functionName": "right",
-                        "line": 195
+                        "line": 432
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 22,
-                        "durationMicroseconds": 690,
+                        "column": 25,
+                        "durationMicroseconds": 727,
                         "errorMessage": "",
-                        "functionName": "visible",
-                        "line": 202
+                        "functionName": "onPressed",
+                        "line": 439
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 20,
-                        "durationMicroseconds": 530,
+                        "column": 25,
+                        "durationMicroseconds": 193,
                         "errorMessage": "",
-                        "functionName": "model",
-                        "line": 203
+                        "functionName": "onPressed",
+                        "line": 439
                     },
                     {
-                        "codegenSuccessfull": true,
-                        "column": 26,
-                        "durationMicroseconds": 369,
-                        "errorMessage": "",
-                        "functionName": "orientation",
-                        "line": 204
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 23,
-                        "durationMicroseconds": 313,
-                        "errorMessage": "",
-                        "functionName": "snapMode",
-                        "line": 205
+                        "codegenSuccessfull": false,
+                        "column": 33,
+                        "durationMicroseconds": 8895,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "onPositionChanged",
+                        "line": 440
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 33,
-                        "durationMicroseconds": 315,
+                        "durationMicroseconds": 189,
                         "errorMessage": "",
-                        "functionName": "highlightRangeMode",
-                        "line": 206
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 36,
-                        "durationMicroseconds": 241,
-                        "errorMessage": "",
-                        "functionName": "preferredHighlightEnd",
-                        "line": 208
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 29,
-                        "durationMicroseconds": 346,
-                        "errorMessage": "",
-                        "functionName": "boundsBehavior",
-                        "line": 211
+                        "functionName": "onPositionChanged",
+                        "line": 440
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 26,
-                        "durationMicroseconds": 1006,
+                        "durationMicroseconds": 1483,
                         "errorMessage": "",
-                        "functionName": "interactive",
-                        "line": 212
+                        "functionName": "onReleased",
+                        "line": 452
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 26,
+                        "durationMicroseconds": 144,
+                        "errorMessage": "",
+                        "functionName": "onReleased",
+                        "line": 452
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 25,
+                        "durationMicroseconds": 832,
+                        "errorMessage": "",
+                        "functionName": "onCanceled",
+                        "line": 456
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 270,
+                        "durationMicroseconds": 157,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 201
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 24,
-                        "durationMicroseconds": 110,
-                        "errorMessage": "Cannot access value for name pageView",
-                        "functionName": "width",
-                        "line": 216
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 25,
-                        "durationMicroseconds": 71,
-                        "errorMessage": "Cannot access value for name pageView",
-                        "functionName": "height",
-                        "line": 217
+                        "line": 437
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 33,
-                        "durationMicroseconds": 760,
+                        "column": 20,
+                        "durationMicroseconds": 228,
                         "errorMessage": "",
-                        "functionName": "onPressed",
-                        "line": 224
+                        "functionName": "width",
+                        "line": 469
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 33,
+                        "column": 21,
+                        "durationMicroseconds": 197,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 470
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
                         "durationMicroseconds": 203,
                         "errorMessage": "",
-                        "functionName": "onPressed",
-                        "line": 224
+                        "functionName": "width",
+                        "line": 478
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 41,
-                        "durationMicroseconds": 2798,
+                        "column": 25,
+                        "durationMicroseconds": 190,
                         "errorMessage": "",
-                        "functionName": "onPositionChanged",
-                        "line": 225
+                        "functionName": "height",
+                        "line": 479
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 41,
-                        "durationMicroseconds": 217,
+                        "column": 20,
+                        "durationMicroseconds": 756,
                         "errorMessage": "",
-                        "functionName": "onPositionChanged",
-                        "line": 225
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 33,
-                        "durationMicroseconds": 191,
-                        "errorMessage": "Cannot access value for name root",
-                        "functionName": "onReleased",
-                        "line": 228
+                        "functionName": "x",
+                        "line": 481
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 33,
-                        "durationMicroseconds": 270,
+                        "column": 30,
+                        "durationMicroseconds": 248,
                         "errorMessage": "",
-                        "functionName": "onCanceled",
-                        "line": 229
+                        "functionName": "enabled",
+                        "line": 483
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 35,
-                        "durationMicroseconds": 276,
+                        "column": 67,
+                        "durationMicroseconds": 235,
                         "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 222
+                        "functionName": "type",
+                        "line": 484
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 2165,
+                        "durationMicroseconds": 884,
                         "errorMessage": "Cannot access value for name AppListModel",
                         "functionName": "model",
-                        "line": 236
+                        "line": 488
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 30,
+                        "durationMicroseconds": 381,
+                        "errorMessage": "",
+                        "functionName": "acceptedButtons",
+                        "line": 497
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 32,
-                        "durationMicroseconds": 171,
-                        "errorMessage": "Cannot access value for name root",
-                        "functionName": "cellWidth",
-                        "line": 237
+                        "column": 23,
+                        "durationMicroseconds": 10308,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "onWheel",
+                        "line": 499
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 158,
+                        "errorMessage": "",
+                        "functionName": "onWheel",
+                        "line": 499
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 164,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 496
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 33,
-                        "durationMicroseconds": 103,
-                        "errorMessage": "Cannot access value for name root",
-                        "functionName": "cellHeight",
-                        "line": 238
+                        "column": 22,
+                        "durationMicroseconds": 830,
+                        "errorMessage": "Cannot access value for name AppListModel",
+                        "functionName": "visible",
+                        "line": 521
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 664,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
+                        "functionName": "color",
+                        "line": 523
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 251,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 520
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 18,
+                        "durationMicroseconds": 107,
+                        "errorMessage": "Cannot access value for name pageCount",
+                        "functionName": "visible",
+                        "line": 530
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 18,
+                        "durationMicroseconds": 422,
+                        "errorMessage": "",
+                        "functionName": "opacity",
+                        "line": 531
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 25,
+                        "durationMicroseconds": 519,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 533
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 378,
+                        "durationMicroseconds": 436,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 535
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 449,
+                        "errorMessage": "",
+                        "functionName": "model",
+                        "line": 539
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 26,
+                        "durationMicroseconds": 99,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "opacity",
+                        "line": 543
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 32,
+                        "durationMicroseconds": 116,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "onClicked",
+                        "line": 548
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 332,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 234
+                        "line": 546
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 90,
-                        "durationMicroseconds": 451,
+                        "column": 16,
+                        "durationMicroseconds": 404,
                         "errorMessage": "",
-                        "functionName": "type",
-                        "line": 243
+                        "functionName": "width",
+                        "line": 558
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 90,
-                        "durationMicroseconds": 362,
+                        "column": 17,
+                        "durationMicroseconds": 251,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 559
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 220,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 567
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 404,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 570
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 51,
+                        "durationMicroseconds": 351,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 570
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 43,
+                        "durationMicroseconds": 345,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 571
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 29,
+                        "durationMicroseconds": 1394,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "source",
+                        "line": 574
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 718,
+                        "errorMessage": "",
+                        "functionName": "sourceSize",
+                        "line": 575
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 238,
+                        "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 576
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 250,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 573
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 410,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 581
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 395,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 584
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 38,
+                        "durationMicroseconds": 210,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 585
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 183,
+                        "errorMessage": "",
+                        "functionName": "elide",
+                        "line": 586
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 177,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 593
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 22,
+                        "durationMicroseconds": 192,
                         "errorMessage": "",
                         "functionName": "type",
-                        "line": 246
+                        "line": 597
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 22,
+                        "durationMicroseconds": 6056,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "onTriggered",
+                        "line": 606
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 22,
+                        "durationMicroseconds": 3242,
+                        "errorMessage": "",
+                        "functionName": "onActivated",
+                        "line": 621
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 18,
+                        "durationMicroseconds": 532,
+                        "errorMessage": "",
+                        "functionName": "visible",
+                        "line": 636
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 219,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 634
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 25,
+                        "durationMicroseconds": 253,
+                        "errorMessage": "",
+                        "functionName": "sourceItem",
+                        "line": 641
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 963,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
+                        "functionName": "color",
+                        "line": 651
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 324,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 650
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 516,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 654
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 170,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 653
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 730,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 665
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 34,
+                        "durationMicroseconds": 231,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 666
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 29,
+                        "durationMicroseconds": 709,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
+                        "functionName": "selectionColor",
+                        "line": 671
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 32,
+                        "durationMicroseconds": 1065,
+                        "errorMessage": "Cannot access value for name AppListModel",
+                        "functionName": "onEditingFinished",
+                        "line": 682
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 29,
+                        "durationMicroseconds": 338,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 662
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 304,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 664
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 1031,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
+                        "functionName": "color",
+                        "line": 677
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 26,
+                        "durationMicroseconds": 452,
+                        "errorMessage": "",
+                        "functionName": "visible",
+                        "line": 678
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 222,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 674
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 36,
+                        "durationMicroseconds": 1395,
+                        "errorMessage": "Cannot access value for name AppListModel",
+                        "functionName": "onEscapePressed",
+                        "line": 683
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 36,
+                        "durationMicroseconds": 169,
+                        "errorMessage": "",
+                        "functionName": "onEscapePressed",
+                        "line": 683
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 888,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 693
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 21,
+                        "durationMicroseconds": 778,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 694
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 166,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 692
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 29,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "Cannot access value for name panelMask",
+                        "functionName": "maskSource",
+                        "line": 700
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 29,
+                        "durationMicroseconds": 218,
+                        "errorMessage": "",
+                        "functionName": "sourceItem",
+                        "line": 706
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 313,
+                        "errorMessage": "",
+                        "functionName": "x",
+                        "line": 713
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 242,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 714
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 359,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 715
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 25,
+                        "durationMicroseconds": 374,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 716
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 25,
+                        "durationMicroseconds": 261,
+                        "errorMessage": "",
+                        "functionName": "source",
+                        "line": 717
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 638,
+                        "errorMessage": "",
+                        "functionName": "x",
+                        "line": 724
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 457,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 725
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 198,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 726
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 25,
+                        "durationMicroseconds": 196,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 727
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 25,
+                        "durationMicroseconds": 180,
+                        "errorMessage": "",
+                        "functionName": "source",
+                        "line": 728
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 784,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
+                        "functionName": "color",
+                        "line": 736
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 206,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 735
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 152,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 739
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 31,
+                        "durationMicroseconds": 799,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
+                        "functionName": "color",
+                        "line": 742
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 198,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 747
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 424,
+                        "errorMessage": "",
+                        "functionName": "flow",
+                        "line": 762
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 996,
+                        "errorMessage": "",
+                        "functionName": "cellWidth",
+                        "line": 764
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 29,
+                        "durationMicroseconds": 893,
+                        "errorMessage": "",
+                        "functionName": "cellHeight",
+                        "line": 765
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 284,
+                        "errorMessage": "",
+                        "functionName": "model",
+                        "line": 766
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 318,
+                        "errorMessage": "",
+                        "functionName": "boundsBehavior",
+                        "line": 768
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 37,
+                        "durationMicroseconds": 277,
+                        "errorMessage": "",
+                        "functionName": "flickableDirection",
+                        "line": 769
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 51,
+                        "durationMicroseconds": 452,
+                        "errorMessage": "",
+                        "functionName": "pageWidth",
+                        "line": 772
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 21,
+                        "durationMicroseconds": 2768,
+                        "errorMessage": "",
+                        "functionName": "pageCount",
+                        "line": 774
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 45,
+                        "durationMicroseconds": 5023,
+                        "errorMessage": "",
+                        "functionName": "page",
+                        "line": 777
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 17,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "snapToPage",
+                        "line": 787
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 36,
+                        "durationMicroseconds": 426,
+                        "errorMessage": "",
+                        "functionName": "onMovementStarted",
+                        "line": 794
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 34,
+                        "durationMicroseconds": 772,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "onMovementEnded",
+                        "line": 795
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 30,
+                        "durationMicroseconds": 672,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 752
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 402,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 754
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 32,
+                        "durationMicroseconds": 312,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 756
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 341,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 758
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 86,
+                        "durationMicroseconds": 245,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 798
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 86,
+                        "durationMicroseconds": 192,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 801
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 74,
+                        "errorMessage": "Cannot access value for name memberGrid",
+                        "functionName": "width",
+                        "line": 805
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 29,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "Cannot access value for name memberGrid",
+                        "functionName": "height",
+                        "line": 806
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 34,
+                        "durationMicroseconds": 475,
+                        "errorMessage": "",
+                        "functionName": "opacity",
+                        "line": 811
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 43,
+                        "durationMicroseconds": 164,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 809
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 36,
+                        "durationMicroseconds": 129,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "width",
+                        "line": 814
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 37,
+                        "durationMicroseconds": 157,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 815
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 55,
+                        "durationMicroseconds": 337,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 816
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 175,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "source",
+                        "line": 819
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 45,
+                        "durationMicroseconds": 715,
+                        "errorMessage": "",
+                        "functionName": "sourceSize",
+                        "line": 820
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 43,
+                        "durationMicroseconds": 212,
+                        "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 821
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 47,
+                        "durationMicroseconds": 171,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 818
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 35,
+                        "durationMicroseconds": 128,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "text",
+                        "line": 828
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 36,
+                        "durationMicroseconds": 84,
+                        "errorMessage": "Cannot access value for name memberGrid",
+                        "functionName": "width",
+                        "line": 831
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 50,
+                        "durationMicroseconds": 274,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 832
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 36,
+                        "durationMicroseconds": 191,
+                        "errorMessage": "",
+                        "functionName": "elide",
+                        "line": 833
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 181,
+                        "errorMessage": "",
+                        "functionName": "wrapMode",
+                        "line": 835
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 36,
+                        "durationMicroseconds": 176,
+                        "errorMessage": "",
+                        "functionName": "style",
+                        "line": 836
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 764,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
+                        "functionName": "styleColor",
+                        "line": 837
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 42,
+                        "durationMicroseconds": 337,
+                        "errorMessage": "",
+                        "functionName": "acceptedButtons",
+                        "line": 845
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 42,
+                        "durationMicroseconds": 230,
+                        "errorMessage": "",
+                        "functionName": "preventStealing",
+                        "line": 848
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 48,
+                        "durationMicroseconds": 708,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "dragFrom",
+                        "line": 854
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 25,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "panelContains",
+                        "line": 856
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 37,
+                        "durationMicroseconds": 729,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "onPressed",
+                        "line": 861
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 37,
+                        "durationMicroseconds": 219,
+                        "errorMessage": "",
+                        "functionName": "onPressed",
+                        "line": 861
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 42,
+                        "durationMicroseconds": 250,
+                        "errorMessage": "",
+                        "functionName": "onPressAndHold",
+                        "line": 867
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 42,
+                        "durationMicroseconds": 186,
+                        "errorMessage": "",
+                        "functionName": "onPressAndHold",
+                        "line": 867
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 45,
+                        "durationMicroseconds": 1056,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "onPositionChanged",
+                        "line": 868
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 45,
+                        "durationMicroseconds": 161,
+                        "errorMessage": "",
+                        "functionName": "onPositionChanged",
+                        "line": 868
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 37,
+                        "durationMicroseconds": 757,
+                        "errorMessage": "Cannot access value for name AppListModel",
+                        "functionName": "onReleased",
+                        "line": 881
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 37,
+                        "durationMicroseconds": 306,
+                        "errorMessage": "",
+                        "functionName": "onCanceled",
+                        "line": 892
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 178,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 844
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 25,
+                        "durationMicroseconds": 217,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 899
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 30,
+                        "durationMicroseconds": 213,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 902
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 26,
+                        "durationMicroseconds": 1297,
+                        "errorMessage": "",
+                        "functionName": "visible",
+                        "line": 907
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 558,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 908
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 43,
+                        "durationMicroseconds": 378,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 910
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 277,
+                        "errorMessage": "",
+                        "functionName": "model",
+                        "line": 913
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 34,
+                        "durationMicroseconds": 76,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "opacity",
+                        "line": 917
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 40,
+                        "durationMicroseconds": 101,
+                        "errorMessage": "Cannot access value for name memberGrid",
+                        "functionName": "onClicked",
+                        "line": 922
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 43,
+                        "durationMicroseconds": 167,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 920
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 26,
+                        "durationMicroseconds": 379,
+                        "errorMessage": "",
+                        "functionName": "visible",
+                        "line": 930
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 791,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
+                        "functionName": "color",
+                        "line": 932
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 161,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 929
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 30,
+                        "durationMicroseconds": 450,
+                        "errorMessage": "",
+                        "functionName": "acceptedButtons",
+                        "line": 940
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 23,
+                        "durationMicroseconds": 3370,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "onWheel",
+                        "line": 941
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 317,
+                        "errorMessage": "",
+                        "functionName": "onWheel",
+                        "line": 941
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 210,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 939
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 200,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 951
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 156,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 955
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 22,
+                        "durationMicroseconds": 850,
+                        "errorMessage": "Cannot access value for name AppListModel",
+                        "functionName": "onTriggered",
+                        "line": 966
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 16,
+                        "durationMicroseconds": 175,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "width",
+                        "line": 978
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 17,
+                        "durationMicroseconds": 90,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "height",
+                        "line": 979
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 39,
+                        "durationMicroseconds": 374,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "appRow",
+                        "line": 981
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 37,
+                        "durationMicroseconds": 113,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "slot",
+                        "line": 982
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 82,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "dragged",
+                        "line": 983
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 236,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "slotPage",
+                        "line": 984
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 42,
+                        "durationMicroseconds": 350,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "isFolder",
+                        "line": 987
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 47,
+                        "durationMicroseconds": 282,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "folderIconList",
+                        "line": 988
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 12,
+                        "durationMicroseconds": 149,
+                        "errorMessage": "Cannot access value for name pager",
+                        "functionName": "x",
+                        "line": 996
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 12,
+                        "durationMicroseconds": 222,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "y",
+                        "line": 997
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 18,
+                        "durationMicroseconds": 358,
+                        "errorMessage": "",
+                        "functionName": "opacity",
+                        "line": 999
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 16,
+                        "durationMicroseconds": 94,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "scale",
+                        "line": 1012
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 22,
+                        "durationMicroseconds": 173,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "enabled",
+                        "line": 1003
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 59,
+                        "durationMicroseconds": 224,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 1004
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 22,
+                        "durationMicroseconds": 110,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "enabled",
+                        "line": 1007
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 59,
+                        "durationMicroseconds": 310,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 1008
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 75,
+                        "durationMicroseconds": 228,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 1013
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 30,
+                        "durationMicroseconds": 272,
+                        "errorMessage": "",
+                        "functionName": "transformOrigin",
+                        "line": 1020
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 280,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 1017
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 129,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "width",
+                        "line": 1023
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 25,
+                        "durationMicroseconds": 94,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "height",
+                        "line": 1024
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 43,
+                        "durationMicroseconds": 1803,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 1025
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 30,
+                        "durationMicroseconds": 402,
+                        "errorMessage": "",
+                        "functionName": "visible",
+                        "line": 1030
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 29,
+                        "durationMicroseconds": 645,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "source",
+                        "line": 1033
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 707,
+                        "errorMessage": "",
+                        "functionName": "sourceSize",
+                        "line": 1035
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 211,
+                        "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 1036
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 155,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 1029
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 30,
+                        "durationMicroseconds": 222,
+                        "errorMessage": "",
+                        "functionName": "visible",
+                        "line": 1045
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 184,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 1044
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 486,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 1049
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 32,
+                        "durationMicroseconds": 983,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
+                        "functionName": "color",
+                        "line": 1052
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 166,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 1048
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 39,
+                        "durationMicroseconds": 851,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
+                        "functionName": "color",
+                        "line": 1053
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 34,
+                        "durationMicroseconds": 896,
+                        "errorMessage": "",
+                        "functionName": "spacing",
+                        "line": 1061
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 58,
+                        "durationMicroseconds": 586,
+                        "errorMessage": "",
+                        "functionName": "cellSize",
+                        "line": 1062
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 402,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 1058
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 42,
+                        "durationMicroseconds": 680,
+                        "errorMessage": "",
+                        "functionName": "margins",
+                        "line": 1059
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 36,
+                        "durationMicroseconds": 273,
+                        "errorMessage": "",
+                        "functionName": "model",
+                        "line": 1064
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 40,
+                        "durationMicroseconds": 134,
+                        "errorMessage": "Cannot access value for name folderIconGrid",
+                        "functionName": "width",
+                        "line": 1066
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 74,
+                        "errorMessage": "Cannot access value for name folderIconGrid",
+                        "functionName": "height",
+                        "line": 1067
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 652,
+                        "errorMessage": "Cannot access value for name modelData",
+                        "functionName": "source",
+                        "line": 1068
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 45,
+                        "durationMicroseconds": 832,
+                        "errorMessage": "",
+                        "functionName": "sourceSize",
+                        "line": 1069
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 43,
+                        "durationMicroseconds": 218,
+                        "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 1070
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 23,
+                        "durationMicroseconds": 615,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "text",
+                        "line": 1079
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 87,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "width",
+                        "line": 1082
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 38,
+                        "durationMicroseconds": 388,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 1083
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 281,
+                        "errorMessage": "",
+                        "functionName": "elide",
+                        "line": 1084
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 252,
+                        "errorMessage": "",
+                        "functionName": "wrapMode",
+                        "line": 1085
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 180,
+                        "errorMessage": "",
+                        "functionName": "style",
+                        "line": 1087
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 29,
+                        "durationMicroseconds": 751,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
+                        "functionName": "styleColor",
+                        "line": 1088
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 22,
+                        "durationMicroseconds": 129,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "running",
+                        "line": 1096
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 328,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 1097
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 391,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 1098
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 108,
+                        "durationMicroseconds": 225,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 1098
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 297,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 1099
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 107,
+                        "durationMicroseconds": 212,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 1099
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 258,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 1100
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 105,
+                        "durationMicroseconds": 240,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 1100
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 40,
+                        "durationMicroseconds": 941,
+                        "errorMessage": "",
+                        "functionName": "duration",
+                        "line": 1101
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 21,
+                        "durationMicroseconds": 104,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "target",
+                        "line": 1104
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 13,
+                        "durationMicroseconds": 54,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "onEditModeChanged",
+                        "line": 1105
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 25,
+                        "durationMicroseconds": 341,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 1114
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 61,
+                        "durationMicroseconds": 437,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 1115
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 25,
+                        "durationMicroseconds": 247,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 1118
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 64,
+                        "durationMicroseconds": 226,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 1119
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 23,
+                        "durationMicroseconds": 197,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "interval",
+                        "line": 1124
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 26,
+                        "durationMicroseconds": 367,
+                        "errorMessage": "",
+                        "functionName": "onTriggered",
+                        "line": 1125
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 21,
+                        "durationMicroseconds": 58,
+                        "errorMessage": "Cannot access value for name root",
+                        "functionName": "target",
+                        "line": 1128
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 13,
+                        "durationMicroseconds": 360,
+                        "errorMessage": "",
+                        "functionName": "onRevealIdChanged",
+                        "line": 1129
                     },
                     {
                         "codegenSuccessfull": true,
@@ -537,583 +2337,87 @@
                         "durationMicroseconds": 400,
                         "errorMessage": "",
                         "functionName": "acceptedButtons",
-                        "line": 255
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 23,
-                        "durationMicroseconds": 11686,
-                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
-                        "functionName": "onWheel",
-                        "line": 257
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 23,
-                        "durationMicroseconds": 334,
-                        "errorMessage": "",
-                        "functionName": "onWheel",
-                        "line": 257
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 27,
-                        "durationMicroseconds": 301,
-                        "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 254
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 22,
-                        "durationMicroseconds": 391,
-                        "errorMessage": "",
-                        "functionName": "visible",
-                        "line": 279
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 20,
-                        "durationMicroseconds": 2146,
-                        "errorMessage": "Cannot access value for name AppListModel",
-                        "functionName": "model",
-                        "line": 280
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 24,
-                        "durationMicroseconds": 417,
-                        "errorMessage": "",
-                        "functionName": "cellWidth",
-                        "line": 281
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 25,
-                        "durationMicroseconds": 346,
-                        "errorMessage": "",
-                        "functionName": "cellHeight",
-                        "line": 282
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 27,
-                        "durationMicroseconds": 393,
-                        "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 278
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 22,
-                        "durationMicroseconds": 1267,
-                        "errorMessage": "Cannot access value for name AppListModel",
-                        "functionName": "visible",
-                        "line": 289
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 20,
-                        "durationMicroseconds": 1035,
-                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
-                        "functionName": "color",
-                        "line": 291
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 31,
-                        "durationMicroseconds": 302,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 288
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 18,
-                        "durationMicroseconds": 279,
-                        "errorMessage": "Cannot access value for name pageCount",
-                        "functionName": "visible",
-                        "line": 298
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 25,
-                        "durationMicroseconds": 517,
-                        "errorMessage": "",
-                        "functionName": "bottom",
-                        "line": 299
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 35,
-                        "durationMicroseconds": 421,
-                        "errorMessage": "",
-                        "functionName": "horizontalCenter",
-                        "line": 301
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 20,
-                        "durationMicroseconds": 366,
-                        "errorMessage": "",
-                        "functionName": "model",
-                        "line": 305
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 26,
-                        "durationMicroseconds": 88,
-                        "errorMessage": "Cannot access value for name index",
-                        "functionName": "opacity",
-                        "line": 309
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 32,
-                        "durationMicroseconds": 113,
-                        "errorMessage": "Cannot access value for name pageView",
-                        "functionName": "onClicked",
-                        "line": 314
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 35,
-                        "durationMicroseconds": 219,
-                        "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 312
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 16,
-                        "durationMicroseconds": 296,
-                        "errorMessage": "",
-                        "functionName": "width",
-                        "line": 324
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 17,
-                        "durationMicroseconds": 271,
-                        "errorMessage": "",
-                        "functionName": "height",
-                        "line": 325
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 31,
-                        "durationMicroseconds": 230,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 332
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 24,
-                        "durationMicroseconds": 742,
-                        "errorMessage": "",
-                        "functionName": "width",
-                        "line": 335
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 51,
-                        "durationMicroseconds": 809,
-                        "errorMessage": "",
-                        "functionName": "height",
-                        "line": 335
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 43,
-                        "durationMicroseconds": 726,
-                        "errorMessage": "",
-                        "functionName": "horizontalCenter",
-                        "line": 336
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 29,
-                        "durationMicroseconds": 2435,
-                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
-                        "functionName": "source",
-                        "line": 339
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 33,
-                        "durationMicroseconds": 1116,
-                        "errorMessage": "",
-                        "functionName": "sourceSize",
-                        "line": 340
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 31,
-                        "durationMicroseconds": 371,
-                        "errorMessage": "",
-                        "functionName": "fillMode",
-                        "line": 341
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 35,
-                        "durationMicroseconds": 295,
-                        "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 338
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 23,
-                        "durationMicroseconds": 431,
-                        "errorMessage": "",
-                        "functionName": "text",
-                        "line": 346
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 24,
-                        "durationMicroseconds": 600,
-                        "errorMessage": "",
-                        "functionName": "width",
-                        "line": 349
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 38,
-                        "durationMicroseconds": 371,
-                        "errorMessage": "",
-                        "functionName": "horizontalAlignment",
-                        "line": 350
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 24,
-                        "durationMicroseconds": 337,
-                        "errorMessage": "",
-                        "functionName": "elide",
-                        "line": 351
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 22,
-                        "durationMicroseconds": 666,
-                        "errorMessage": "Cannot access value for name pageCount",
-                        "functionName": "onTriggered",
-                        "line": 361
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 22,
-                        "durationMicroseconds": 1734,
-                        "errorMessage": "",
-                        "functionName": "onActivated",
-                        "line": 373
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 16,
-                        "durationMicroseconds": 113,
-                        "errorMessage": "Cannot access value for name root",
-                        "functionName": "width",
-                        "line": 381
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 17,
-                        "durationMicroseconds": 69,
-                        "errorMessage": "Cannot access value for name root",
-                        "functionName": "height",
-                        "line": 382
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 18,
-                        "durationMicroseconds": 83,
-                        "errorMessage": "Cannot access value for name root",
-                        "functionName": "opacity",
-                        "line": 383
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 31,
-                        "durationMicroseconds": 789,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 388
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 24,
-                        "durationMicroseconds": 296,
-                        "errorMessage": "Cannot access value for name root",
-                        "functionName": "width",
-                        "line": 394
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 25,
-                        "durationMicroseconds": 81,
-                        "errorMessage": "Cannot access value for name root",
-                        "functionName": "height",
-                        "line": 395
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 43,
-                        "durationMicroseconds": 883,
-                        "errorMessage": "",
-                        "functionName": "horizontalCenter",
-                        "line": 396
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 29,
-                        "durationMicroseconds": 882,
-                        "errorMessage": "Cannot access value for name model",
-                        "functionName": "source",
-                        "line": 399
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 33,
-                        "durationMicroseconds": 1253,
-                        "errorMessage": "",
-                        "functionName": "sourceSize",
-                        "line": 400
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 31,
-                        "durationMicroseconds": 334,
-                        "errorMessage": "",
-                        "functionName": "fillMode",
-                        "line": 401
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 35,
-                        "durationMicroseconds": 252,
-                        "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 398
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 23,
-                        "durationMicroseconds": 904,
-                        "errorMessage": "Cannot access value for name model",
-                        "functionName": "text",
-                        "line": 407
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 24,
-                        "durationMicroseconds": 132,
-                        "errorMessage": "Cannot access value for name root",
-                        "functionName": "width",
-                        "line": 410
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 38,
-                        "durationMicroseconds": 494,
-                        "errorMessage": "",
-                        "functionName": "horizontalAlignment",
-                        "line": 411
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 24,
-                        "durationMicroseconds": 332,
-                        "errorMessage": "",
-                        "functionName": "elide",
-                        "line": 412
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 27,
-                        "durationMicroseconds": 287,
-                        "errorMessage": "",
-                        "functionName": "wrapMode",
-                        "line": 413
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 24,
-                        "durationMicroseconds": 305,
-                        "errorMessage": "",
-                        "functionName": "style",
-                        "line": 415
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 29,
-                        "durationMicroseconds": 1483,
-                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
-                        "functionName": "styleColor",
-                        "line": 416
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 25,
-                        "durationMicroseconds": 303,
-                        "errorMessage": "",
-                        "functionName": "target",
-                        "line": 423
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 61,
-                        "durationMicroseconds": 324,
-                        "errorMessage": "",
-                        "functionName": "type",
-                        "line": 424
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 25,
-                        "durationMicroseconds": 282,
-                        "errorMessage": "",
-                        "functionName": "target",
-                        "line": 427
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 64,
-                        "durationMicroseconds": 308,
-                        "errorMessage": "",
-                        "functionName": "type",
-                        "line": 428
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 23,
-                        "durationMicroseconds": 259,
-                        "errorMessage": "Cannot access value for name model",
-                        "functionName": "interval",
-                        "line": 433
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 26,
-                        "durationMicroseconds": 490,
-                        "errorMessage": "",
-                        "functionName": "onTriggered",
-                        "line": 434
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 21,
-                        "durationMicroseconds": 84,
-                        "errorMessage": "Cannot access value for name root",
-                        "functionName": "target",
-                        "line": 437
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 13,
-                        "durationMicroseconds": 381,
-                        "errorMessage": "",
-                        "functionName": "onRevealIdChanged",
-                        "line": 438
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 32,
-                        "durationMicroseconds": 218,
-                        "errorMessage": "Cannot access value for name root",
-                        "functionName": "onCompleted",
-                        "line": 441
+                        "line": 1135
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 752,
-                        "errorMessage": "",
-                        "functionName": "acceptedButtons",
-                        "line": 448
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 30,
-                        "durationMicroseconds": 562,
+                        "durationMicroseconds": 348,
                         "errorMessage": "",
                         "functionName": "preventStealing",
-                        "line": 451
+                        "line": 1138
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 25,
-                        "durationMicroseconds": 253,
+                        "durationMicroseconds": 186,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "onPressed",
-                        "line": 457
+                        "line": 1144
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 256,
+                        "durationMicroseconds": 137,
                         "errorMessage": "",
                         "functionName": "onPressed",
-                        "line": 457
+                        "line": 1144
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 33,
-                        "durationMicroseconds": 1514,
+                        "durationMicroseconds": 203,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "onPositionChanged",
-                        "line": 461
+                        "line": 1148
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 33,
-                        "durationMicroseconds": 262,
+                        "durationMicroseconds": 124,
                         "errorMessage": "",
                         "functionName": "onPositionChanged",
-                        "line": 461
+                        "line": 1148
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 30,
-                        "durationMicroseconds": 220,
+                        "durationMicroseconds": 105,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "onPressAndHold",
-                        "line": 467
+                        "line": 1167
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 235,
+                        "durationMicroseconds": 119,
                         "errorMessage": "",
                         "functionName": "onPressAndHold",
-                        "line": 467
+                        "line": 1167
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 25,
-                        "durationMicroseconds": 297,
+                        "durationMicroseconds": 189,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "onReleased",
-                        "line": 473
+                        "line": 1174
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 25,
-                        "durationMicroseconds": 158,
+                        "durationMicroseconds": 125,
                         "errorMessage": "Cannot access value for name root",
                         "functionName": "onCanceled",
-                        "line": 482
+                        "line": 1189
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 354,
+                        "durationMicroseconds": 169,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 447
+                        "line": 1134
                     }
                 ],
                 "filepath": "/home/zed/桌面/pad/launchpad/qml/Main.qml"

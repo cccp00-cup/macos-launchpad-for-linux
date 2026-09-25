@@ -1,14 +1,18 @@
 Package: launchpad
-Version: 1.0.0-1
+Version: 26.9.25-1
 Section: utils
 Priority: optional
 Architecture: amd64
-Installed-Size: 576
-Depends: libqt6core6t64, libqt6gui6, libqt6qml6, libqt6quick6, libqt6qmlworkerscript6, libkf6globalaccel6, qml6-module-qtquick, qml6-module-qtquick-window
+Installed-Size: 896
+Depends: libqt6core6t64 | libqt6core6, libqt6dbus6, libqt6network6, libqt6gui6, libqt6qml6, libqt6quick6, libqt6qmlworkerscript6, libkf6globalaccel6, qml6-module-qtquick, qml6-module-qtquick-window, qml6-module-qtquick-effects, qml6-module-qtqml, qml6-module-qtqml-models
 Recommends: ffmpeg
+Homepage: https://qwenwork.cn
 Maintainer: qw-launchpad <launchpad@localhost>
 Description: macOS-style full-screen application launcher
  Full-screen app launcher inspired by the classic macOS Launchpad.
  Shows applications over a blurred view of the current wallpaper,
- with drag-and-drop arrangement, horizontal paging, live search,
- and a global Left-Alt hotkey via KGlobalAccel.
+ with drag-and-drop arrangement, folders, horizontal paging, live search,
+ and a global hotkey via KGlobalAccel.
+ .
+ Requires Qt 6.5+ and KF6 (Plasma 6 era desktops). On Debian/Ubuntu
+ install with: sudo apt install ./launchpad_26.9.25-1_amd64.deb

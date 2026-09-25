@@ -1,0 +1,49 @@
+Launchpad 启动台 26.9.25 —— 安装说明
+=====================================
+
+【一】Debian / Ubuntu 系（Debian 12+、Ubuntu 22.04+）
+
+把 launchpad_26.9.25-1_amd64.deb 拷到目标机器，任选一种方式安装：
+
+  1) 图形方式（软件商店）
+     双击 .deb 文件 → 在「软件商店 / Discover」里点「安装」
+     弹出授权框时输入你的登录密码即可。
+
+  2) 命令行（最稳，会自动装齐依赖）
+     sudo apt install ./launchpad_26.9.25-1_amd64.deb
+
+     如果提示依赖不满足，补一句：
+     sudo apt -f install
+
+  说明：这是本地 .deb，没有 GPG 签名，安装时出现「不受信任」的提示属于正常现象，
+  确认继续即可。apt 会比双击更可靠地处理依赖。
+
+【二】其它发行版（Arch / Fedora / openSUSE 等）
+
+.deb 不适用，请从源码构建。需要 Qt 6.5+ 与 KF6：
+
+    cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+    cmake --build build -j"$(nproc)"
+    sudo install -Dm755 build/launchpad /usr/local/bin/launchpad
+
+【三】运行环境要求
+
+  - Qt 6.5 及以上：libqt6core6(或 libqt6core6t64)、libqt6gui6、libqt6qml6、libqt6quick6
+  - KF6 GlobalAccel：libkf6globalaccel6 —— 用于左 Alt 全局快捷键
+  - QML 模块：qml6-module-qtquick、qml6-module-qtquick-window、
+    qml6-module-qtquick-effects、qml6-module-qtqml、qml6-module-qtqml-models
+
+以上依赖在 .deb 的 Depends 里都已声明，apt 会自动安装。
+
+【四】安装之后
+
+  - 按「左 Alt」呼出 / 隐藏（可在「系统设置 → 快捷键 → Launchpad」里修改）
+  - 已注册开机自启，后台常驻
+  - 点击图标启动应用；长按图标约 0.2 秒进入编辑态后可拖动排序
+  - 把图标拖到另一个图标上停约 0.8 秒可合并成文件夹
+  - 配置文件与排序：~/.config/launchpad/settings.conf
+  - 壁纸模糊缓存：~/.cache/qw-launchpad/Launchpad（可安全删除）
+
+【五】卸载
+
+    sudo apt remove launchpad

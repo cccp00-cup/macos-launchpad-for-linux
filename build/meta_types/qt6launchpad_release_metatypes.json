@@ -2,48 +2,8 @@
     {
         "classes": [
             {
-                "className": "Wallpaper",
-                "lineNumber": 41,
-                "methods": [
-                    {
-                        "access": "public",
-                        "index": 1,
-                        "name": "url",
-                        "returnType": "QString"
-                    }
-                ],
-                "object": true,
-                "qualifiedClassName": "Wallpaper",
-                "signals": [
-                    {
-                        "access": "public",
-                        "index": 0,
-                        "name": "ready",
-                        "returnType": "void"
-                    }
-                ],
-                "superClasses": [
-                    {
-                        "access": "public",
-                        "name": "QObject"
-                    }
-                ]
-            },
-            {
-                "className": "SliceModel",
-                "lineNumber": 343,
-                "object": true,
-                "qualifiedClassName": "SliceModel",
-                "superClasses": [
-                    {
-                        "access": "public",
-                        "name": "QAbstractListModel"
-                    }
-                ]
-            },
-            {
                 "className": "AppModel",
-                "lineNumber": 375,
+                "lineNumber": 43,
                 "methods": [
                     {
                         "access": "public",
@@ -67,23 +27,11 @@
                         "access": "public",
                         "arguments": [
                             {
-                                "name": "page",
-                                "type": "int"
-                            }
-                        ],
-                        "index": 4,
-                        "name": "pageModel",
-                        "returnType": "QObject*"
-                    },
-                    {
-                        "access": "public",
-                        "arguments": [
-                            {
                                 "name": "desktopId",
                                 "type": "QString"
                             }
                         ],
-                        "index": 5,
+                        "index": 4,
                         "name": "launch",
                         "returnType": "void"
                     },
@@ -91,23 +39,113 @@
                         "access": "public",
                         "arguments": [
                             {
-                                "name": "from",
-                                "type": "int"
-                            },
-                            {
-                                "name": "to",
-                                "type": "int"
+                                "name": "idsInOrder",
+                                "type": "QVariantList"
                             }
                         ],
-                        "index": 6,
-                        "name": "move",
+                        "index": 5,
+                        "name": "commitLayout",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
+                        "arguments": [
+                            {
+                                "name": "draggedId",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "targetId",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 6,
+                        "name": "mergeInto",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "folderId",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "memberId",
+                                "type": "QString"
+                            }
+                        ],
                         "index": 7,
-                        "name": "saveOrder",
-                        "returnType": "void"
+                        "name": "takeFromFolder",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "folderId",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 8,
+                        "name": "renameFolder",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "folderId",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "memberIds",
+                                "type": "QVariantList"
+                            }
+                        ],
+                        "index": 9,
+                        "name": "reorderFolder",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "folderId",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 10,
+                        "name": "folderMembers",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 11,
+                        "name": "isFolder",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "folderId",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 12,
+                        "name": "folderName",
+                        "returnType": "QString"
                     }
                 ],
                 "object": true,
@@ -161,6 +199,40 @@
                     {
                         "access": "public",
                         "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "appmodel.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Wallpaper",
+                "lineNumber": 38,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "url",
+                        "returnType": "QString"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "Wallpaper",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "ready",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
                     }
                 ]
             }
